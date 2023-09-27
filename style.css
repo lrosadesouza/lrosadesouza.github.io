@@ -29,6 +29,11 @@ a, a:visited{
     color: #000000;
 }
 
+.menu-button{
+    font-family: "Open Sans", serif;
+    font-weight: bolder;
+}
+
 .menu-button:hover{
     background-color: rgba(0, 0, 0, 0.1);
 }
@@ -77,13 +82,14 @@ footer{
     flex-direction: column;
     justify-content:center;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.581);
 }
 #body-right{
-    background-color: rgba(0, 0, 0, 0.317);
     display:flex;
     flex-direction: column;
     justify-content:center;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.581);
     /* height: 100%; */
 }
 
@@ -102,33 +108,59 @@ footer{
     justify-content:space-evenly;
     align-items:baseline;
     height: 100%;
-    min-height: 600px;
     /* width: 100%; */
 }
+
+.service-divs{
+    display: flex;
+    justify-content:center;
+}
+
 #service-div-1{
-    display: block;
+    
     background-color: rgba(0, 0, 0, 0.069);
-    min-height: 150px;
+    min-height: 100px;
+    height: 120px;
+    max-height: 150px;
     width: 100%;
 }
 
 #service-div-2{
-    display: block;
-    background-color: beige;
-    min-height: 150px;
+    background-color: rgba(245, 245, 220, 0.383);
+    min-height: 100px;
+    height: 120px;
+    max-height: 150px;
     width: 100%;
 }
 
 #service-div-3{
-    display: block;
-    background-color: aqua;
-    min-height: 150px;
+    background-color: rgba(0, 0, 0, 0.069);
+    min-height: 100px;
+    height: 120px;
+    max-height: 150px;
     width: 100%;
 }
 
 #service-div-4{
-    display: block;
     background-color: rgba(245, 245, 220, 0.383);
-    min-height: 150px;
+    min-height: 100px;
+    height: 120px;
+    max-height: 150px;
     width: 100%;
 }
+
+.services-imgs{
+    max-height: 120px;
+    position: absolute;
+    left: 0;
+}
+
+.services-text{
+   font-size: 12pt;
+   text-align: center;
+   font-family: "EB Garamond", serif; 
+}
+.services-text p{
+    font-family: "Open Sans";
+}
+
