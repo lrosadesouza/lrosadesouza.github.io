@@ -48,9 +48,6 @@ body{
 
 #whole-page-div{
     position: relative;
-    /* display: flex; */
-    /* flex-direction: column;
-    justify-content:center; */
     min-height: 100vh;
     height: 100vh;
     flex: 1;
@@ -98,6 +95,13 @@ footer{
     text-align: center;
 }
 
+#body-left-content-p3{
+    font-size: 14pt;
+}
+#body-left-content-p3 ul li{
+    font-size: 12pt;
+}
+
 
 
 
@@ -108,7 +112,6 @@ footer{
     justify-content:space-evenly;
     align-items:baseline;
     height: 100%;
-    /* width: 100%; */
 }
 
 .service-divs{
@@ -163,4 +166,14 @@ footer{
 .services-text p{
     font-family: "Open Sans";
 }
+
+/* Contact us page */
+#contact-body{
+    text-align: center;
+}
+
+label{
+    font-family: "Open Sans", sans-serif;
+}
+
 
